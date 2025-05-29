@@ -3,11 +3,11 @@
 <nav><ul class="list-none m-4 flex">
     <li class="inline text-xl font-bold w-1/2">Kigali Web Artisans</li>
     <span class="w-1/2 text-right">
-    <li class="inline p-2">Home</li>
-    <li class="inline p-2">Learn</li>
-    <li class="inline p-2">Events</li>
-    <li class="inline p-2">Workshops</li>
-    <li class="inline p-2">Community</li>
+    <li class="inline p-2"><a href="index.php">Home</a></li>
+    <li class="inline p-2"><a href="">Learn</a></li>
+    <li class="inline p-2"><a href="events.php">Events</a></li>
+    <li class="inline p-2"><a href="">Workshops</a></li>
+    <li class="inline p-2"><a href="">Community</a></li>
     <li class="inline p-3 bg-orange-500 rounded-full"><button>Sign up</button></li>
     <li class="inline p-3 bg-gray-300 rounded-full"><button>Login</button></li>
     </span>
