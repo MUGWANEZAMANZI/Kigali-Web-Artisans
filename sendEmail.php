@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->AltBody = "Dear $name,\n\nThank you for registering for the $event event.\n\nBest regards,\nKigali Web Artisans";
 
         $mail->send();
-        echo 'Message has been sent';
+        header('Location: thank_you.php');
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }

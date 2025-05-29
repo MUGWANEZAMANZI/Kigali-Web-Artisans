@@ -6,9 +6,11 @@
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<?php include 'header.php'; ?>
+
 <body>
-    <h1 class="items-center text-center p-2 bg-blue-500 text-white">Events Registration Page</h1>
+    <?php include 'header.php'; ?>
+    <div class="container mx-auto mt-10 mb-10">
+    <h1 class="items-center text-center p-2 bg-blue-500 text-white mx-auto w-1/2 border rounded-lg">Events Registration Page</h1>
     <form method="POST" action="sendEmail.php" class="w-1/2 mx-auto p-4">
         <label for="name">Name:</label>
         <input type="text"  name="name" required class="border p-2 mb-4 w-full">
@@ -22,6 +24,7 @@
         </select>
         <input type="submit" value="Register" class="bg-blue-500 text-white p-2 rounded">
     </form>
+    </div>
     <?php include 'footer.php'; ?>
 </body>
 </html>
